@@ -1,0 +1,148 @@
+body{
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  
+
+}
+
+h1{
+    font-size: 35px;
+    
+}
+p{
+    max-width: 60%;
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+    
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.centered{
+    position: absolute;
+    top: 30%;
+    left:65%;
+    
+   
+}
+
+.centered .banner-description{
+    font-size: 16px;
+   
+    max-width: 400px;
+}
+
+.btn-primary{
+    background-color: #F15B22;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* about section style start */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px ;
+}
+
+.about-myself{
+    margin-left: 87px;
+}
+
+/* my plan css start */
+
+.my-plan{
+    margin: 0 300px;
+}
+
+.myplan-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    
+}
+.myplan-item{
+    tex: center;
+}
+
+.section-title{
+    text-align: center;
+    
+}
+
+/* banner-image styles start */
+
+.banner-image {
+    width:62%;
+    height:220px;
+    margin-left: 50px;
+    margin-top: 130px;
+ 
+}
+
+/* footer section styles start */
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 130px;
+}
+
+.btn-footer{
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    
+}
+
+.footer-section{
+    margin-left: 150px;
+    float: left;
+    width: 50%;
+}
+
+.footer-description{
+    color: #FFFFFF;
+    max-width: 45%;
+}
+
+
+.social-links a{
+    margin-right: 20px;
+}
+
+.contact input[type="email"]{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
